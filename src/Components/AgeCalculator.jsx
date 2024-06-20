@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { Container, Form, Button, Row, Col } from 'react-bootstrap';
-import { ToastContainer, toast, Bounce } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import './AgeCalculator.css'; // Import the CSS file
+import React, { useState } from "react";
+import { Container, Form, Button, Row, Col } from "react-bootstrap";
+import { ToastContainer, toast, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "./AgeCalculator.css"; // Import the CSS file
 
 const AgeCalculator = () => {
-  const [dateOfBirth, setDateOfBirth] = useState('');
+  const [dateOfBirth, setDateOfBirth] = useState("");
   const [age, setAge] = useState(null);
 
   const handleChange = (e) => {
@@ -25,15 +25,13 @@ const AgeCalculator = () => {
       toast.success(`Your age is: ${age} years`, {
         transition: Bounce,
         autoClose: 5000,
-        position: "top-center" // Set the toast position to top-center
-
+        position: "top-center", // Set the toast position to top-center
       });
     } else {
-      toast.error('Please enter a valid date of birth', {
+      toast.error("Please enter a valid date of birth", {
         transition: Bounce,
         autoClose: 5000,
-        position: "top-center" // Set the toast position to top-center
-
+        position: "top-center", // Set the toast position to top-center
       });
     }
   };

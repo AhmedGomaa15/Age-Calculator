@@ -1,40 +1,38 @@
-
 .date-input {
-    font-size: 1.25rem !important;
-    height: 3rem !important;
-    width: 100% !important;
-    padding: 0.5rem !important;
-    box-sizing: border-box !important;
-  }
-  
-  .form-group label {
-    font-size: 1.25rem;
-  }
-  
-  .calculate-button {
-    font-size: 1.25rem;
-    padding: 0.5rem 1.5rem;
-  }
-  
-  .mt-5 {
-    margin-top: 2rem !important;
-  }
-  
-  .d-flex {
-    display: flex !important;
-  }
-  
-  .flex-column {
-    flex-direction: column !important;
-  }
-  
-  .align-items-center {
-    align-items: center !important;
-  }
-  
-  .Toastify__toast-container--top-center {
-    top: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
+  font-size: 1.25rem !important;
+  height: 3rem !important;
+  width: 100% !important;
+  padding: 0.5rem !important;
+  box-sizing: border-box !important;
+}
+
+.form-group label {
+  font-size: 1.25rem;
+}
+
+.calculate-button {
+  font-size: 1.25rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 2rem !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.Toastify__toast-container--top-center {
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
